@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 75%;
+}
+
+body{
+    background-color: #f0f8ff;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-box{
+display: flex;
+align-items: center;
+margin-left: 12rem;
+margin-top: 2rem;
+width: 80%;
+}
+button{
+    border: 0;
+    outline: 0;
+    background-color: #000000;
+    color: #f0f8ff;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img{
+/* font-size: 3rem; */
+}
+.logo{
+font-size: 2rem;
+color: #000000;
+
+}
+
+.wrapper{
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+
+nav {
+margin-left: 12rem;
+margin-top: 6rem;
+}
+.code{
+    font-size: 2rem;
+    color: rgb(205, 4, 4);
+}
+.header{
+font-size: 3rem;
+color: #000;
+/* column-gap: 6rem;    */
+}
+.sub-header{
+font-size: 1.5rem;
+
+}
+.color{
+    font-size: 2rem;
+}
+#btn1{
+width: 4rem;
+height: 4rem;
+background-color: red;
+border-radius: 50%;
+}
+#btn2{
+    width: 4rem;
+    height: 4rem;
+    background-color: black;
+    border-radius: 50%;
+}
+#btn3{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    border-radius: 50%;
+}
+#btn4{
+    width: 4rem;
+    height: 4rem;
+    background-color: yellow;
+    border-radius: 50%;
+}
+#btn5{
+    width: 4rem;
+    height: 4rem;
+    background-color: green;
+    border-radius: 50%;
+   
+}
+.main-gg {
+}
+#motor{
+     transition: .6s all ease-in-out;
+
+ }
+
+ #motor:hover {
+    transform: translateY(-10px);
+ }
+
+
+
+    
